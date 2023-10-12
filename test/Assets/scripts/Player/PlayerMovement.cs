@@ -4,9 +4,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.TextCore.Text;
 
+
+namespace player{
 public class PlayerMovement : MonoBehaviour
 {
-  [SerializeField] private float _moveSpeed = 10f;
+  [SerializeField] public float _moveSpeed = 10f;
   private Vector2 _moveDirection = Vector2.zero;
 
   private Rigidbody2D _rigidbody2D;
@@ -70,5 +72,4 @@ private void HandleMovement()
 
     _lastPostion = transform.position;
 }
-  
-}
+}}

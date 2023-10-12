@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - SpawnPoint
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -41,4 +42,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1574504389
+    locked: 0
+  - name: level
+    uniqueID: 730450367
+    locked: 0
+  - name: character
+    uniqueID: 3892592247
     locked: 0
